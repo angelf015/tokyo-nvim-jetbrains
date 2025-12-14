@@ -18,6 +18,7 @@
         <option name="INDENT_GUIDE" value="222436"/>
         <option name="SELECTED_INDENT_GUIDE" value="82aaff"/>
 
+
         <option name="LINE_NUMBERS_COLOR" value="3b4261"/>
         <option name="METHOD_SEPARATORS_COLOR" value="2f334d"/>
         <option name="SELECTION_BACKGROUND" value="2d3f76"/>
@@ -131,6 +132,7 @@
         <option name="DEFAULT_LOCAL_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="c8d3f5"/>
+                <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
         <option name="DEFAULT_PARAMETER">

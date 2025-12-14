@@ -3,6 +3,7 @@
   "author": "Soup",
   "dark": true,
   "editorScheme": "/theme/moon-bold.xml",
+  "parentTheme": "Islands Dark",
   "colors": {
     "bg_dark": "#1e2030",
     "bg": "#222436",

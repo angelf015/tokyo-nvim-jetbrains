@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>tokyo-nvim-jetbrains</id>
-    <version>1.0.2</version>
+    <version>2.0.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -10,21 +10,42 @@
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor url="https://github.com/folke/tokyonight.nvim">Based on TokyoNight by Folke</vendor>
 
     <idea-version since-build="251"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Enter short description for your theme here.<br>
-        <em>most HTML tags may be used</em>
+        A faithful port of the <b>Tokyo Night</b> theme collection from Folke's tokyonight.nvim for Neovim.<br>
+        <br>
+        <b>Features:</b><br>
+        <ul>
+            <li>Complete theme collection with 4 variants</li>
+            <li>3 dark themes: Night (darkest), Storm (medium), and Moon (blue-tinted)</li>
+            <li>1 light theme: Day (for daytime coding)</li>
+            <li>Dark, clean aesthetic inspired by Tokyo's night</li>
+            <li>Carefully chosen colors for optimal readability</li>
+            <li>Full syntax highlighting support for all JetBrains IDEs</li>
+            <li>Authentic color palettes matching the original Neovim theme</li>
+            <li>Enhanced UI components and version control integration</li>
+        </ul>
+        <br>
+        Based on the popular <a href="https://github.com/folke/tokyonight.nvim">tokyonight.nvim</a> theme by Folke.
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        Initial release of the theme.
+        <h3>Version 2.0.0</h3>
+        <ul>
+            <li>Added complete Tokyo Night theme collection (4 variants total)</li>
+            <li>New dark themes: Tokyo Night (darkest) and Tokyo Storm (medium dark)</li>
+            <li>New light theme: Tokyo Day</li>
+            <li>Improved Tokyo Moon variant with accurate colors</li>
+            <li>Improved color accuracy matching official tokyonight.nvim colors</li>
+            <li>Enhanced syntax highlighting and UI components</li>
+        </ul>
     ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
@@ -32,7 +53,16 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="tokyo-nvim-jetbrains" path="/theme/tokyo-moon.theme.json"/>
-        <themeProvider id="tokyo-nvim-jetbrains-bold" path="/theme/tokyo-moon-bold.theme.json"/>
+        <!-- Tokyo Night - Darkest variant -->
+        <themeProvider id="tokyo-night" path="/theme/tokyo-night.theme.json"/>
+        
+        <!-- Tokyo Storm - Medium dark variant -->
+        <themeProvider id="tokyo-storm" path="/theme/tokyo-storm.theme.json"/>
+        
+        <!-- Tokyo Moon - Blue-tinted dark variant -->
+        <themeProvider id="tokyo-moon" path="/theme/tokyo-moon.theme.json"/>
+        
+        <!-- Tokyo Day - Light variant -->
+        <themeProvider id="tokyo-day" path="/theme/tokyo-day.theme.json"/>
     </extensions>
 </idea-plugin>

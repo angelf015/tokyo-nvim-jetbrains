@@ -1,21 +1,21 @@
-<scheme name="Tokyo Storm Nvim" version="142" parent_scheme="Darcula">
+<scheme name="Tokyo Night Nvim" version="142" parent_scheme="Darcula">
     <colors>
         <option name="ADDED_LINES_COLOR" value="9ece6a"/>
         <option name="ANNOTATIONS_COLOR" value="89ddff"/>
         <option name="CARET_COLOR" value="c0caf5"/>
         <option name="CARET_ROW_COLOR" value="292e42"/>
-        <option name="CONSOLE_BACKGROUND_KEY" value="24283b"/>
+        <option name="CONSOLE_BACKGROUND_KEY" value="1a1b26"/>
         <option name="DELETED_LINES_COLOR" value="f7768e"/>
         <option name="DIFF_SEPARATORS_BACKGROUND" value="292e42"/>
-        <option name="DOCUMENTATION_COLOR" value="24283b"/>
+        <option name="DOCUMENTATION_COLOR" value="1a1b26"/>
         <option name="DOC_COMMENT_LINK" value="7aa2f7"/>
         <option name="ERROR_HINT" value="db4b4b"/>
         <option name="FILESTATUS_ADDED" value="9ece6a"/>
         <option name="FILESTATUS_DELETED" value="f7768e"/>
         <option name="FILESTATUS_MODIFIED" value="7aa2f7"/>
-        <option name="GUTTER_BACKGROUND" value="24283b"/>
+        <option name="GUTTER_BACKGROUND" value="1a1b26"/>
 
-        <option name="INDENT_GUIDE" value="24283b"/>
+        <option name="INDENT_GUIDE" value="292e42"/>
         <option name="SELECTED_INDENT_GUIDE" value="7aa2f7"/>
 
         <option name="LINE_NUMBERS_COLOR" value="3b4261"/>
@@ -41,13 +41,11 @@
         <option name="DEFAULT_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="bb9af7"/>
-                <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
         <option name="JAVA_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="bb9af7"/>
-                <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
 
@@ -245,7 +243,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="c0caf5"/>
-                <option name="BACKGROUND" value="24283b"/>
+                <option name="BACKGROUND" value="1a1b26"/>
             </value>
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">

@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>tokyo-nvim-jetbrains</id>
+    <id>com.github.angelf015.tokyonight-nvim-edition</id>
     <version>2.0.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
-    <name>Tokyo Nvim Jetbrains</name>
+    <name>Tokyo Night - Nvim Edition</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://github.com/folke/tokyonight.nvim">Based on TokyoNight by Folke</vendor>
+    <vendor email="angelf015@users.noreply.github.com" url="https://github.com/angelf015/tokyo-nvim-jetbrains">angelf015</vendor>
 
-    <idea-version since-build="251"/>
+    <idea-version since-build="233"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->

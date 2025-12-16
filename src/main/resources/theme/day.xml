@@ -15,7 +15,7 @@
         <option name="FILESTATUS_MODIFIED" value="2e7de9"/>
         <option name="GUTTER_BACKGROUND" value="e1e2e7"/>
 
-        <option name="INDENT_GUIDE" value="e1e2e7"/>
+        <option name="INDENT_GUIDE" value="c4c8da"/>
         <option name="SELECTED_INDENT_GUIDE" value="2e7de9"/>
 
         <option name="LINE_NUMBERS_COLOR" value="a8aecb"/>
@@ -41,13 +41,11 @@
         <option name="DEFAULT_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="9854f1"/>
-                <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
         <option name="JAVA_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="9854f1"/>
-                <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
 

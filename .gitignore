@@ -1,3 +1,36 @@
-out
+# Build outputs
+build/
+out/
+.gradle/
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE files
 .idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Plugin build artifacts
+/build/distributions/
+
+# Signing
+private.key
+chain.crt
+
+# Secrets
+local.properties
+gradle.properties.local
+
+# Logs
+*.log
